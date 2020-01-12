@@ -14,7 +14,7 @@ use s9e\TextFormatter\Configurator;
 return [
     (new Extend\Frontend('forum'))
         ->content(function (Document $document) {
-            $document->head[] = '<link rel="stylesheet" type="text/css" href="/YOUR/STYLES/HERE/REMOVE/OR/CHANGE/THIS/styles.css">';
+            $document->head[] = '<link rel="stylesheet" type="text/css" href="/assets/extensions/YOURUSERNAME-nameofextension/styles.css">';
         }),
     (new Extend\Formatter)
         ->configure(function (Configurator $config) {
