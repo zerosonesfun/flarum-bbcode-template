@@ -1,9 +1,9 @@
 {
-    "name": "zerosonesfun/bbbbcode",
-    "description": "Big Beautiful BBcode",
+    "name": "yourusername/flarum-bbcode-template",
+    "description": "Your description.",
     "authors": [
         {
-            "name": "Billy Wilcosky",
+            "name": "Your Name",
             "role": "Creator"
         }
     ],
@@ -13,13 +13,13 @@
         "flarum/core": "^0.1.0-beta.8"
     },
     "autoload": {
-        "psr-4": {"ZerosOnesFun\\bbbbcode\\": "src/"}
+        "psr-4": {"UserName\\bbcode-template\\": "src/"}
     },
     "extra": {
         "flarum-extension": {
-            "title": "bbbbcode",
+            "title": "BBCode Template",
             "icon": {
-                "name": "fas fa-heart",
+                "name": "fas fa-bold",
                 "backgroundColor": "#ddd",
                 "color": "#000"
             }
